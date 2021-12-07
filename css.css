@@ -1,0 +1,807 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    background-image: url(Poze/Site\ Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+::-webkit-scrollbar-track{
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #FFD700;
+    border-radius: 10px;
+
+}
+
+.mainDiv{
+    height: auto;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.Logo{
+    width: 200px;
+    height: 200px;
+}
+
+.name{
+    font-family: 'Libre Baskerville', serif;
+    color: #FFD700;
+    margin-bottom: 0;
+}
+
+.editor{
+    width: 90vw;
+    height: auto;
+    background: rgba(0, 0, 0, .5);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 50px;
+}
+
+.editor:hover{
+    width: 93vw;
+}
+
+.claseEditor{
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.case{
+    width: auto;
+    height: auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+    transition: .5s;
+}
+
+.case p{
+    font-size: 1.3em;
+}
+
+.case:hover{
+    color: #FFD700;
+    opacity: 1;
+}
+
+.case button{
+    width: auto;
+    height: auto;
+    border: none;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    transition: .4s;
+    border: 1px solid white;
+    font-size: .9em;
+}
+
+.case button:hover{
+    background: transparent;
+    color: white;
+    color: #FFD700;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+.afiseaza{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    opacity: .6;
+    padding: 5px;
+    border-radius: 10px;
+    transition: .5s;
+}
+
+.afiseaza:hover{
+    opacity: .8;
+}
+
+.afiseaza h2{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.afiseaza button{
+    background-color: transparent;
+    border: none;
+    margin-top: 0;
+}
+
+#press{
+    color: white;
+    font-size: 2em;
+    cursor: pointer;
+}
+
+.continut{
+    width: 90vw;
+    height: auto;
+    background: rgba(0, 0, 0, .5);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    margin-top: 70px;
+}
+
+.continut:hover{
+    width: 93vw;
+}
+
+hr{
+    color: white;
+    width: 100vw;
+}
+
+#descopera{
+    transition: .5s;
+}
+
+#descopera:hover{
+    background-color: transparent;
+    color: #FFD700;
+}
+
+button{
+    cursor: pointer;
+}
+
+.tect{
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cinesunt{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.cinesunt h1{
+    font-family: 'Libre Baskerville', serif;
+    color: #FFD700;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    text-shadow: 2px 2px black;
+}
+
+.cinesunt h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-shadow: 2px 2px black;
+}
+
+.cinesunt i{
+    font-size: .9em;
+}
+
+.social{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    margin-top: 50px;
+}
+
+.socialmedia{
+    font-size: 2em;
+}
+
+.socialmedia a{
+    color: white;
+    margin: 10px;
+    transition: .5s;
+}
+
+.socialmedia a:hover{
+    color: #FFD700;
+    text-shadow: 0px 0px 3  px white;
+}
+
+.brand{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.brand a{
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    text-shadow: 0px 0px 0px white;
+    transition: .5s;
+}
+
+.brand a:hover{
+    color: #FFD700;
+    text-shadow: 0px 0px 5px white;
+}
+
+.back {
+    color: white;
+    text-decoration: none;
+    transition: .5s;
+    margin-top: 0;
+}
+
+.back i{
+    font-size: .9em;
+}
+
+.back:hover{
+    color: #FFD700;
+}
+
+.gratis{
+    border-radius: 20px;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid #FFD700;
+    font-family: 'Libre Baskerville', serif;
+    background: #FFD700;
+    font-weight: bolder;
+    font-size: 1.1em;
+    color: black;
+    transition: .5s;
+}
+
+.gratis i{
+    color: red;
+}
+
+.gratis:hover{
+    background: transparent;
+    color: white;
+    box-shadow: 0px 0px 5px white;
+    font-size: 1.3em;
+}
+
+.freestuff{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90vw;
+    border-radius: 20px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.freetitle{
+    display: flex;
+    align-items: center;
+    color: white;
+    font-family: 'Libre Baskerville', serif;
+    margin: 20px;
+}
+
+.freetitle i{
+    color: #FFD700;
+    font-size: 3em;
+    margin: 20px;
+}
+
+.freedownload{
+    color: #FFD700;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.freedownload a{
+    width: auto;
+    height: auto;
+    border: none;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    transition: .4s;
+    border: 1px solid white;
+    font-size: .9em;
+    text-decoration: none;
+    background-color: white;
+    margin-left: 10px;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+
+.freedownload h2{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-shadow: 0px 0px 2px white;
+    font-size: 2em;
+}
+
+.freedownload a:hover{
+    background: transparent;
+    color: white;
+    color: #FFD700;
+}
+
+.titlepage{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    align-items: center;
+    display: flex;
+    margin-bottom: 2%;
+    justify-content: center;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.variante{
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    width: 90vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5 0px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgba(0, 0, 0, .5);
+}
+
+.variante a{
+    margin-top: unset;
+}
+
+.descriere{
+    color: white;
+}
+
+.descriere h4{
+    text-shadow: 0px 0px 3px white;
+    margin-left: 0;
+    margin-bottom: 10px;
+}
+
+.vartitle{
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: 10%;
+    font-size: 2.2em;
+}
+
+.subtitle{
+    margin-left: 2%;
+    font-weight: lighter;
+    font-family: 'Nunito Sans', sans-serif;
+    color: #FFD700;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.descriere h3{
+    margin-left: 6%;
+}
+
+.price{
+    font-size: 1.5em;
+    margin-top: 0;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+.get{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.descriere button{
+    width: auto;
+    height: auto;
+    border: none;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 30px;
+    transition: .4s;
+    border: 1px solid white;
+    font-size: 1.5em; 
+    font-weight: bold; 
+}
+
+.descriere button:hover{
+    background: transparent;
+    color: white;
+    color: #FFD700;
+}
+
+.exemplu{
+    height: 450px;
+    width: 350px;
+}
+
+.GetItTitle{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.GetItTitle h1{
+    margin-bottom: 0;
+}
+
+.GetItTitle h3{
+    margin-top: 0;
+    color: #FFD700;
+}
+
+.GetItMeniu{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.GetItMeniu a{
+    text-decoration: none;
+    color: black;
+}
+
+.GetItMeniu h2{
+    border: 1px solid white;
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    border-radius: 30px;
+    column-rule-color: black;
+}
+
+.choose{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 80vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+.loading{
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 99vw;
+    height: 100vh;
+    opacity: 1;
+    background-color: black;
+    transition: .9s;
+    z-index: 1;
+}
+
+.exemple{
+    display: flex;
+    width: 90vw;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exemple h1{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-bottom: 5%;
+    text-decoration: underline;
+}
+
+.pozeexemple{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 1%;
+}
+
+.pexemple{
+    width: 250px;
+    height: 250px;
+    margin-bottom: 0;
+}
+
+.descriereSite{
+    display: flex;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 1%;
+}
+
+.descriereSite h1{
+    color: white;
+}
+
+.descriereSite h3{
+    color: white;
+    margin-top: 0;
+}
+
+.code{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.clasecode{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.clasecode i{
+    font-size: 3em;
+}
+
+.clasecode h3{
+    color: white;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.codesubtitle {
+    color: #FFD700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.butonsiteuri{
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    font-size: 1em;
+}
+
+.followers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    background: rgba(0, 0, 0, .5);
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10%;
+    color: white;
+    border: 1px solid #FFD700;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.followers h2{
+    margin-bottom: 0;
+}
+
+.bara{
+    width: 80%;
+    background: transparent;
+    height: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.barap{
+    width: 61%;
+    height: 10px;
+    background-color: #FFD700;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.baran{
+    width: 49%;
+    height: 10px;
+    background-color: gray;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.progres{
+    display: flex;
+    justify-content: flex-start;
+    width: 90vw;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background: rgba(0, 0, 0, .5);
+    align-items: flex-start;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 1%;
+}
+
+.progres i{
+    color: #FFD700;
+    font-size: 5em;
+    margin-left: .5%;
+}
+
+.evenimente{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: auto;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    color: white;
+}
+
+.evenimente i{
+    color: #FFD700;
+    font-size: 2.5em;
+}
+
+.imgmare{
+    height: 400px;
+    width: 800px;
+}
+
+@media only screen and (max-width: 1024px) {
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: black;
+        background-image: url(Poze/Site\ Background.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .mainDiv{
+        flex-direction: column;
+    }    
+
+    .claseEditor{
+        flex-direction: column;
+    }
+    
+    .imgmare{
+        height: 200px;
+        width: 400px;
+    }
+
+    .followers{
+        width: 90vw;
+    }
+
+    .freestuff{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .variante{
+        flex-direction: column;
+    }
+
+    .variante a{
+        margin-top: 5%;
+    }
+
+    .pozeexemple{
+        flex-direction: column;
+        margin-bottom: 0%;
+    }
+
+    .pexemple{
+        width: 300px;
+        height: 300px;
+        margin-bottom: 2%;
+    }
+    
+    .code{
+        width: 80%;
+    }
+}
