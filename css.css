@@ -766,6 +766,10 @@ button{
     .claseEditor{
         flex-direction: column;
     }
+
+    .case {
+        width: 80%;
+    }
     
     .imgmare{
         height: 200px;
